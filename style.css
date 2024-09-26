@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(228, 90, 200);
+    color: white;
+    font-family: "Emilys Candy", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(116, 0, 92);
+    color: white;
+    font-family: "Emilys Candy", serif;
+}
+
+  .passo {
+    display: none;
+  }
+
+  .passo.ativo {
+    display: block;
+  }
+
+  main {
+    max-width: 90%;
+    text-align: center;
+  }
+
+  img {
+    max-width: 80%;
+  }
